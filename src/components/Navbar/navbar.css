@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    /* border-top: 1px solid rgb(192, 192, 192); */
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.navlink {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    line-height: 1px;
+    color: white;
+    margin: 40px;
+    padding: 10px;
+}
+.navlink:hover {
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.navlink:hover::after {
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.navlink::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    content: "";
+    transition: width 0.3s ease-out;
+}
+.created-by {
+    font-family: "Open Sans";
+    color: white;
+    font-weight: 100;
+}
