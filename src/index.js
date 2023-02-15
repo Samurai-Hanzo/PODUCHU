@@ -7,6 +7,8 @@ import "../src/components/Navbar/navbar.css";
 import "../src/components/Sidebar/sidebar.css";
 import "../src/components/Header/header.css";
 import "../src/components/HomeDescription/homedescription.css";
+import "../src/components/Auth/auth.css";
+import "../src/components/Login/login.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

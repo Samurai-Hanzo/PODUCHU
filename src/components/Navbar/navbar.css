@@ -1,8 +1,7 @@
 .navbar {
     position: fixed;
     bottom: 0;
-    background: rgba(0, 0, 0, 0);
-    /* border-top: 1px solid rgb(192, 192, 192); */
+    background: linear-gradient(transparent 0%, #1e1e1e 90%);
     height: 70px;
     width: 100%;
     display: flex;

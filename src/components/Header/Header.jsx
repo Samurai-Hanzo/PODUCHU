@@ -1,7 +1,8 @@
 import React from "react";
-import HeaderMentor from "../../asstets/rena2.png";
+import HeaderMentor from "../../asstets/rena3.png";
 
 const Header = () => {
+    let creators = "Creators >";
     return (
         <div className="header">
             <div className="header-col-1">
@@ -20,9 +21,7 @@ const Header = () => {
                     </p>
                 </div>
 
-                <button className="header-button">
-                    Creators <i class="fa-light fa-arrow-right"></i>
-                </button>
+                <button className="header-button">{creators}</button>
             </div>
         </div>
     );
