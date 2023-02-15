@@ -1,0 +1,101 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 800px;
+    background: radial-gradient(at bottom right, #0922fd, #1e1e1e 70%);
+}
+.auth-logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+}
+.auth-logo-title {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 30px;
+    padding: 30px;
+}
+.reg-form {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.reg-form-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    width: 100%;
+}
+.reg-form-input-name {
+    width: 40%;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+.reg-form-input-name:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.btn-new-acc {
+    width: 42%;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: #1e1e1e;
+}
+.btn-have-acc {
+    width: 40%;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: #1e1e1e;
+}
+.btn-have-acc:hover {
+    background: #1e1e1e;
+    color: white;
+    transition: 0.3s;
+}
+.btn-new-acc:hover {
+    background: #1e1e1e;
+    color: white;
+    transition: 0.3s;
+}
+.reg-form-name {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 37px;
+    color: white;
+}
+.have-acc {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.m-10 {
+    margin: 10px;
+}

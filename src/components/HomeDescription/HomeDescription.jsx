@@ -2,6 +2,7 @@ import React from "react";
 import HomeDesriptionMentor from "../../asstets/aiana3.png";
 
 const HomeDescription = () => {
+    let mentors = "Our Mentors >";
     return (
         <div className="description">
             <div className="home-description">
@@ -15,9 +16,7 @@ const HomeDescription = () => {
                             journey to success now!
                         </p>
                     </div>
-                    <button className="header-button">
-                        Our Mentors <i class="fa-light fa-arrow-right"></i>
-                    </button>
+                    <button className="header-button">{mentors}</button>
                 </div>
                 <div className="home-description-col-2">
                     <img src={HomeDesriptionMentor} alt="" />
