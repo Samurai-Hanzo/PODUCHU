@@ -16,7 +16,7 @@ const HomeDescription = () => {
                             journey to success now!
                         </p>
                     </div>
-                    <button className="header-button">{mentors}</button>
+                    <button className="desc-header-button">{mentors}</button>
                 </div>
                 <div className="home-description-col-2">
                     <img src={HomeDesriptionMentor} alt="" />
