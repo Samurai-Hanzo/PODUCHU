@@ -1,14 +1,16 @@
 span {
     margin: 5px;
 }
+:root {
+    --index: calc(1vw + 1vh);
+}
 .description {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 900px;
+    min-height: 900px;
     background: radial-gradient(35% 40%, #0922fd 10%, #1e1e1e 90%);
 }
 .home-description {
@@ -29,30 +31,42 @@ span {
 .home-description-col-2 {
     max-width: 500px;
     justify-content: center;
+    height: fit-content;
 }
+
 .home-description-name {
     font-family: "Open Sans";
     font-weight: 700;
     color: white;
-    font-size: 100px;
+    font-size: calc(var(--index) / 0.175);
     line-height: 0;
     margin-top: 160px;
 }
 .home-description-title {
-    width: 445px;
-    margin-right: 60px;
+    max-width: 445px;
 }
 .home-description-item {
+    padding: 20px;
     max-width: 100%;
     font-family: "Open Sans";
     font-weight: 400;
     color: white;
-    font-size: 16px;
+    font-size: calc(var(--index) / 1);
     text-align: left;
 }
+.desc-header-button {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
 .courses {
-    width: 80%;
-    height: 250px;
+    max-width: 1000px;
+    margin: 0 20px;
+    min-height: 250px;
     border-radius: 10px;
     background: #d9d9d9;
     display: flex;
@@ -85,4 +99,41 @@ span {
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+    .description {
+        height: 1300px;
+    }
+    .home-description {
+        height: fit-content;
+    }
+    .home-description-col-2 img {
+        transform: translateY(4px);
+    }
+
+    .home-description-col-1 {
+        align-items: center;
+    }
+    .home-description-item {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 802px) {
+    /* .description {
+        height: 1600px;
+    } */
+    .home-description-name {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 946px) {
+    .description {
+        height: 1600px;
+    }
+}
+@media screen and (max-width: 678px) {
+    .courses {
+        max-width: 350px;
+    }
 }

@@ -28,6 +28,18 @@ const Login = () => {
                     />
 
                     <button className="btn-new-acc m-10">Log In</button>
+                    <Link
+                        style={{ textDecoration: "none", color: "white" }}
+                        to="/forgotPass"
+                    >
+                        Forgot password?
+                    </Link>
+                    <Link
+                        style={{ textDecoration: "none", color: "white" }}
+                        to="/changePass"
+                    >
+                        Change password?
+                    </Link>
                 </div>
             </div>
         </div>

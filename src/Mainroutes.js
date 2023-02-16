@@ -1,9 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import AboutUsPage from "./pages/AboutUsPage";
-import AdminPage from "./pages/AdminPage";
 import AuthPage from "./pages/AuthPage";
+import ChangePassPage from "./pages/ChangePassPage";
 import ContactUsPage from "./pages/ContactUsPage";
+import ForgotPassPage from "./pages/ForgotPassPage";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -18,6 +19,8 @@ const Mainroutes = () => {
         { link: "/aboutus", element: <AboutUsPage />, id: 5 },
         { link: "/support", element: <SupportPage />, id: 6 },
         { link: "/login", element: <LoginPage />, id: 7 },
+        { link: "/forgotPass", element: <ForgotPassPage />, id: 8 },
+        { link: "/changePass", element: <ChangePassPage />, id: 9 },
     ];
 
     // const PRIVATE_ROUTES = [{ link: "/admin", element: <AdminPage />, id: 7 }];

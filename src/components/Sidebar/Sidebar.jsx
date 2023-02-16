@@ -1,4 +1,3 @@
-import { IconButton } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from "../../asstets/menu-img.svg";
@@ -20,7 +19,7 @@ const Sidebar = () => {
             </div>
             <div className="sidebar-title-3">
                 <Link to="/registration">
-                    <i class="fa-solid fa-right-to-bracket icons"></i>
+                    <i className="fa-solid fa-right-to-bracket icons"></i>
                 </Link>
             </div>
         </div>

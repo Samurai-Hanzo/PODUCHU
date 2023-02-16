@@ -9,6 +9,8 @@ import "../src/components/Header/header.css";
 import "../src/components/HomeDescription/homedescription.css";
 import "../src/components/Auth/auth.css";
 import "../src/components/Login/login.css";
+import "../src/components/ChangePassword/change.css";
+import "../src/components/ForgotPassword/forgot.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
