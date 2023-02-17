@@ -9,7 +9,7 @@ const Header = () => {
                 <img src={HeaderMentor} alt="" />
             </div>
             <div className="header-col-2">
-                <h1 className="header-name">PODUCHU</h1>
+                <span className="header-name">PODUCHU</span>
                 <div className="header-description">
                     <p className="header-desc">
                         Unlock the power of code with our educational
