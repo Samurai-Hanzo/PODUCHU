@@ -18,8 +18,12 @@ const ForgotPassword = () => {
                         type="mail"
                         placeholder="Your@mail.com"
                     />
-
-                    <button className="btn-new-acc m-10">Send me code</button>
+                    <Link
+                        style={{ textDecoration: "none", color: "white" }}
+                        to="/changePassWithCode"
+                    >
+                        <button className="btn-new-acc m-10">Send Code</button>
+                    </Link>
                 </div>
             </div>
         </div>
