@@ -1,72 +1,72 @@
 :root {
-    --index: calc(1vw + 1vh);
+  --index: calc(1vw + 1vh);
 }
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 600px;
-    background: radial-gradient(at top left, #0922fd, #1e1e1e 70%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 600px;
+  /* background: radial-gradient(at top left, #0922fd, #1e1e1e 70%); */
+  background: #1e1e1e;
 }
 .header-col-1 {
-    max-width: 500px;
-    justify-content: center;
-    margin-top: -4px;
+  max-width: 500px;
+  justify-content: center;
+  margin-top: -4px;
 }
 .header-col-2 {
-    margin: 10px 30px;
-    max-width: 500px;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
+  margin: 10px 30px;
+  max-width: 500px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 .header-name {
-    font-family: "Open Sans";
-    font-weight: 700;
-    color: white;
-    font-size: calc(var(--index) / 0.175);
-    margin-right: 60px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: white;
+  font-size: calc(var(--index) / 0.175);
+  margin-right: 60px;
 }
 .header-description {
-    max-width: 445px;
-    margin-right: 60px;
+  max-width: 445px;
+  margin-right: 60px;
 }
 .header-desc {
-    max-width: 100%;
-    font-family: "Open Sans";
-    font-weight: 400;
-    color: white;
-    font-size: calc(var(--index) / 1);
-
-    text-align: right;
+  max-width: 100%;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: white;
+  font-size: calc(var(--index) / 1);
+  text-align: right;
 }
 .header-button {
-    background: rgba(0, 0, 0, 0);
-    border: 1px solid white;
-    padding: 10px 30px;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 60px;
-    margin-top: 30px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 60px;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 1060px) {
-    .header {
-        height: 1200px;
-    }
-    .header-col-1 {
-        order: 2;
-    }
-    .header-col-2 {
-        align-items: center;
-    }
-    .header-desc {
-        text-align: center;
-    }
-    .header-description {
-        margin-right: 0;
-    }
+  .header {
+    height: 1200px;
+  }
+  .header-col-1 {
+    order: 2;
+  }
+  .header-col-2 {
+    align-items: center;
+  }
+  .header-desc {
+    text-align: center;
+  }
+  .header-description {
+    margin-right: 0;
+  }
 }
