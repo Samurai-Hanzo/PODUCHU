@@ -18,9 +18,7 @@ const HomeDescription = () => {
                     </div>
                     <button className="desc-header-button">{mentors}</button>
                 </div>
-                <div className="home-description-col-2">
-                    <img src={HomeDesriptionMentor} alt="" />
-                </div>
+                <div className="home-description-col-0"></div>
             </div>
             <div className="courses">
                 <div className="courses-title">

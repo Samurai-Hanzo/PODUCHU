@@ -35,6 +35,7 @@ span {
 }
 
 .home-description-name {
+    white-space: nowrap;
     font-family: "Open Sans";
     font-weight: 700;
     color: white;
