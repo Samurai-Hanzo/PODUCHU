@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbar-links">
                 <Link
-                    to="/products"
+                    to="/mentorList"
                     style={{ textDecoration: "none", color: "black" }}
                 >
                     <span className="navlink">Find Mentor</span>

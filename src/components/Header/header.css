@@ -1,14 +1,14 @@
-:root {
+/* :root {
     --index: calc(1vw + 1vh);
-}
+} */
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100vw;
-    height: 600px;
-    /* background: radial-gradient(at top left, #0922fd, #1e1e1e 70%); */
+    min-height: 600px;
+    background: radial-gradient(at top left, #0922fd, #1e1e1e 70%);
 }
 .header-col-1 {
     max-width: 500px;
@@ -26,7 +26,7 @@
     font-family: "Open Sans";
     font-weight: 700;
     color: white;
-    font-size: calc(var(--index) / 0.175);
+    font-size: 100px;
     margin-right: 60px;
     margin-bottom: 40px;
     margin-top: 30px;
@@ -40,7 +40,7 @@
     font-family: "Open Sans";
     font-weight: 400;
     color: white;
-    font-size: calc(var(--index) / 1);
+    font-size: 20px;
 
     text-align: right;
 }
@@ -70,5 +70,8 @@
     }
     .header-description {
         margin-right: 0;
+    }
+    .header-name {
+        font-size: 60px;
     }
 }

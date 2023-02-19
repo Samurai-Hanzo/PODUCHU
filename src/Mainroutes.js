@@ -1,6 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Code from "./components/ForgotPassword/Code";
+import MentorCard from "./components/Mentor/MentorCard";
+import MentorList from "./components/Mentor/MentorList";
 import AboutUsPage from "./pages/AboutUsPage";
 import AuthPage from "./pages/AuthPage";
 import ChangePassPage from "./pages/ChangePassPage";
@@ -23,9 +25,9 @@ const Mainroutes = () => {
         { link: "/forgotPass", element: <ForgotPassPage />, id: 8 },
         { link: "/changePass", element: <ChangePassPage />, id: 9 },
         { link: "/changePassWithCode", element: <Code />, id: 10 },
+        { link: "/mentorList", element: <MentorList />, id: 11 },
+        { link: "/oneMentor/:id", element: <MentorCard />, id: 12 },
     ];
-
-    // const PRIVATE_ROUTES = [{ link: "/admin", element: <AdminPage />, id: 7 }];
     return (
         <div>
             <Routes>
