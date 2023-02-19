@@ -12,7 +12,7 @@
     z-index: 2;
 }
 .sidebar:hover {
-    left: 0;
+    left: 0px;
     transition: 0.3s;
 }
 .sidebar:hover img {
@@ -63,5 +63,5 @@
 }
 .sidebar:hover .sidebar-title-3 {
     position: absolute;
-    left: -320px;
+    /* left: -250px; */
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Code from "./components/ForgotPassword/Code";
 import AboutUsPage from "./pages/AboutUsPage";
 import AuthPage from "./pages/AuthPage";
 import ChangePassPage from "./pages/ChangePassPage";
@@ -21,6 +22,7 @@ const Mainroutes = () => {
         { link: "/login", element: <LoginPage />, id: 7 },
         { link: "/forgotPass", element: <ForgotPassPage />, id: 8 },
         { link: "/changePass", element: <ChangePassPage />, id: 9 },
+        { link: "/changePassWithCode", element: <Code />, id: 10 },
     ];
 
     // const PRIVATE_ROUTES = [{ link: "/admin", element: <AdminPage />, id: 7 }];
