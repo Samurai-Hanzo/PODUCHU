@@ -64,6 +64,4 @@ const HomeDescription = () => {
       </div>
     </div>
   );
-};
-
 export default HomeDescription;

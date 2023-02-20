@@ -11,6 +11,7 @@ import "../src/components/Auth/auth.css";
 import "../src/components/Login/login.css";
 import "../src/components/ChangePassword/change.css";
 import "../src/components/ForgotPassword/forgot.css";
+
 import { Provider } from "react-redux";
 import store from "./store";
 
@@ -23,4 +24,17 @@ root.render(
       </BrowserRouter>
     </Provider>
   </React.StrictMode>
+
+import "../src/components/Mentor/css/mentorlist.css";
+import MentorContextProvider from "./contexts/MentorContextProvider";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <MentorContextProvider>
+                <App />
+            </MentorContextProvider>
+        </BrowserRouter>
+    </React.StrictMode>
 );
