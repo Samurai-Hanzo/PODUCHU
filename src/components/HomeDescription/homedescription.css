@@ -1,6 +1,8 @@
+
 /* span {
   margin: 5px;
 } */
+
 :root {
   --index: calc(1vw + 1vh);
 }
@@ -12,6 +14,7 @@
   width: 100vw;
   min-height: 900px;
   background: radial-gradient(35% 40%, #0922fd 10%, #1e1e1e 90%);
+
 }
 .home-description {
   display: flex;
@@ -35,6 +38,7 @@
 }
 
 .home-description-name {
+
   white-space: nowrap;
   font-family: "Open Sans";
   font-weight: 700;
