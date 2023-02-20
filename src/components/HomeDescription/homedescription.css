@@ -1,6 +1,6 @@
-span {
+/* span {
   margin: 5px;
-}
+} */
 :root {
   --index: calc(1vw + 1vh);
 }
@@ -35,13 +35,13 @@ span {
 }
 
 .home-description-name {
+  white-space: nowrap;
   font-family: "Open Sans";
   font-weight: 700;
   color: white;
   font-size: calc(var(--index) / 0.175);
   line-height: 0;
   margin-top: 160px;
-  white-space: nowrap;
 }
 .home-description-title {
   max-width: 445px;

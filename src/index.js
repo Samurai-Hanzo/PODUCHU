@@ -11,13 +11,16 @@ import "../src/components/Auth/auth.css";
 import "../src/components/Login/login.css";
 import "../src/components/ChangePassword/change.css";
 import "../src/components/ForgotPassword/forgot.css";
-import "../src/components/Schedule/schedule.css";
+import "../src/components/Mentor/css/mentorlist.css";
+import MentorContextProvider from "./contexts/MentorContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <MentorContextProvider>
+        <App />
+      </MentorContextProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
