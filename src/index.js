@@ -11,12 +11,16 @@ import "../src/components/Auth/auth.css";
 import "../src/components/Login/login.css";
 import "../src/components/ChangePassword/change.css";
 import "../src/components/ForgotPassword/forgot.css";
+import { Provider } from "react-redux";
+import store from "./store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <React.StrictMode>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
-    </React.StrictMode>
+  <React.StrictMode>
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
+  </React.StrictMode>
 );

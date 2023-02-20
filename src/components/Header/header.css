@@ -2,7 +2,6 @@
   --index: calc(1vw + 1vh);
 }
 .header {
-<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -10,16 +9,6 @@
   width: 100vw;
   height: 600px;
   /* background: radial-gradient(at top left, #0922fd, #1e1e1e 70%); */
-  background: #1e1e1e;
-=======
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 600px;
-    /* background: radial-gradient(at top left, #0922fd, #1e1e1e 70%); */
->>>>>>> 97a3b56389a13606687068e51fa779f8dbe718c5
 }
 .header-col-1 {
   max-width: 500px;
@@ -34,21 +23,13 @@
   flex-direction: column;
 }
 .header-name {
-<<<<<<< HEAD
   font-family: "Open Sans";
   font-weight: 700;
   color: white;
   font-size: calc(var(--index) / 0.175);
   margin-right: 60px;
-=======
-    font-family: "Open Sans";
-    font-weight: 700;
-    color: white;
-    font-size: calc(var(--index) / 0.175);
-    margin-right: 60px;
-    margin-bottom: 40px;
-    margin-top: 30px;
->>>>>>> 97a3b56389a13606687068e51fa779f8dbe718c5
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 .header-description {
   max-width: 445px;
