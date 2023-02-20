@@ -3,13 +3,14 @@
   --index: calc(1vw + 1vh);
 }
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100vw;
-    min-height: 600px;
-    background: radial-gradient(at top left, #0922fd, #1e1e1e 70%);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  min-height: 600px;
+  background: radial-gradient(at top left, #0922fd, #1e1e1e 70%);
 
 }
 .header-col-1 {
@@ -25,26 +26,26 @@
   flex-direction: column;
 }
 .header-name {
-    font-family: "Open Sans";
-    font-weight: 700;
-    color: white;
-    font-size: 100px;
-    margin-right: 60px;
-    margin-bottom: 40px;
-    margin-top: 30px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: white;
+  font-size: 100px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 .header-description {
   max-width: 445px;
   margin-right: 60px;
 }
 .header-desc {
-    max-width: 100%;
-    font-family: "Open Sans";
-    font-weight: 400;
-    color: white;
-    font-size: 20px;
+  max-width: 100%;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
 
-    text-align: right;
+  text-align: right;
 }
 .header-button {
   background: rgba(0, 0, 0, 0);
@@ -58,6 +59,7 @@
 }
 
 @media screen and (max-width: 1060px) {
+
 
     .header {
         height: 1200px;

@@ -1,6 +1,8 @@
-span {
+
+/* span {
   margin: 5px;
-}
+} */
+
 :root {
   --index: calc(1vw + 1vh);
 }
@@ -11,8 +13,8 @@ span {
   align-items: center;
   width: 100vw;
   min-height: 900px;
-  /* background: radial-gradient(35% 40%, #0922fd 10%, #1e1e1e 90%); */
-  background: #1e1e1e;
+  background: radial-gradient(35% 40%, #0922fd 10%, #1e1e1e 90%);
+
 }
 .home-description {
   display: flex;
