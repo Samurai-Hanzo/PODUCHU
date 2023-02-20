@@ -1,6 +1,7 @@
-/* :root {
-    --index: calc(1vw + 1vh);
-} */
+
+:root {
+  --index: calc(1vw + 1vh);
+}
 .header {
     display: flex;
     flex-direction: row;
@@ -9,18 +10,19 @@
     width: 100vw;
     min-height: 600px;
     background: radial-gradient(at top left, #0922fd, #1e1e1e 70%);
+
 }
 .header-col-1 {
-    max-width: 500px;
-    justify-content: center;
-    margin-top: -4px;
+  max-width: 500px;
+  justify-content: center;
+  margin-top: -4px;
 }
 .header-col-2 {
-    margin: 10px 30px;
-    max-width: 500px;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
+  margin: 10px 30px;
+  max-width: 500px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 .header-name {
     font-family: "Open Sans";
@@ -32,8 +34,8 @@
     margin-top: 30px;
 }
 .header-description {
-    max-width: 445px;
-    margin-right: 60px;
+  max-width: 445px;
+  margin-right: 60px;
 }
 .header-desc {
     max-width: 100%;
@@ -45,17 +47,18 @@
     text-align: right;
 }
 .header-button {
-    background: rgba(0, 0, 0, 0);
-    border: 1px solid white;
-    padding: 10px 30px;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 60px;
-    margin-top: 30px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 60px;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 1060px) {
+
     .header {
         height: 1200px;
     }
@@ -74,4 +77,5 @@
     .header-name {
         font-size: 60px;
     }
+
 }
