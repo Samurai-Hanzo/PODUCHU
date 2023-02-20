@@ -16,11 +16,9 @@ import MentorContextProvider from "./contexts/MentorContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <MentorContextProvider>
-        <App />
-      </MentorContextProvider>
-    </BrowserRouter>
-  </React.StrictMode>
+  <BrowserRouter>
+    <MentorContextProvider>
+      <App />
+    </MentorContextProvider>
+  </BrowserRouter>
 );

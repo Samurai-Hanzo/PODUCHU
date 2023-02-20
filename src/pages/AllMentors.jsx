@@ -27,7 +27,7 @@ const AllMentors = () => {
       <div className="pagination">
         <Pagination
           sx={{
-            color: "rgba(255, 255, 255, 0.87)",
+            color: "white",
             marginBottom: "60px",
           }}
           count={3}
