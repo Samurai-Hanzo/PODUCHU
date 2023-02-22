@@ -1,7 +1,9 @@
-/* :root {
-    --index: calc(1vw + 1vh);
-} */
+
+:root {
+  --index: calc(1vw + 1vh);
+}
 .header {
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -9,6 +11,7 @@
   width: 100vw;
   min-height: 600px;
   background: radial-gradient(at top left, #0922fd, #1e1e1e 70%);
+
 }
 .header-col-1 {
   max-width: 500px;
@@ -56,22 +59,25 @@
 }
 
 @media screen and (max-width: 1060px) {
-  .header {
-    height: 1200px;
-  }
-  .header-col-1 {
-    order: 2;
-  }
-  .header-col-2 {
-    align-items: center;
-  }
-  .header-desc {
-    text-align: center;
-  }
-  .header-description {
-    margin-right: 0;
-  }
-  .header-name {
-    font-size: 60px;
-  }
+
+
+    .header {
+        height: 1200px;
+    }
+    .header-col-1 {
+        order: 2;
+    }
+    .header-col-2 {
+        align-items: center;
+    }
+    .header-desc {
+        text-align: center;
+    }
+    .header-description {
+        margin-right: 0;
+    }
+    .header-name {
+        font-size: 60px;
+    }
+
 }

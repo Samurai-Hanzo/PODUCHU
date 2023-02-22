@@ -14,11 +14,18 @@ import "../src/components/ForgotPassword/forgot.css";
 import "../src/components/Mentor/css/mentorlist.css";
 import MentorContextProvider from "./contexts/MentorContextProvider";
 
+import { Provider } from "react-redux";
+import store from "./store";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <MentorContextProvider>
-      <App />
-    </MentorContextProvider>
-  </BrowserRouter>
+  <React.StrictMode>
+    <Provider store={store}>
+      <BrowserRouter>
+        <MentorContextProvider>
+          <App />
+        </MentorContextProvider>
+      </BrowserRouter>
+    </Provider>
+  </React.StrictMode>
 );
