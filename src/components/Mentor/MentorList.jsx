@@ -3,7 +3,7 @@ import heartIcon from "../../asstets/heart.png";
 
 const MentorList = () => {
   return (
-    <div>
+    <div className="ml-80-v2">
       <div className="wrapper">
         <div>
           <img
