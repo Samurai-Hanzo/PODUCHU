@@ -7,12 +7,13 @@ import { Pagination } from "@mui/material";
 
 const AllMentors = () => {
   let Findbtn = "find >";
+
   return (
     <div className="mentors-list">
       <Navbar />
       <Sidebar />
-      <h1 className="mentors-list-title">MENTORS</h1>
-      <div className="mentors-list_filter">
+      <h1 className="mentors-list-title ml-80">MENTORS</h1>
+      <div className="mentors-list_filter ml-80">
         <input type="text" className="filter-input" placeholder="skills  >" />
         <input
           type="text"

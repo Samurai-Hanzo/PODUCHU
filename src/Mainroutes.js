@@ -26,6 +26,7 @@ const Mainroutes = () => {
     { link: "/changePass", element: <ChangePassPage />, id: 9 },
     { link: "/changePassWithCode", element: <Code />, id: 10 },
     { link: "/allMentors", element: <AllMentors />, id: 11 },
+    // { link: "/oneMentor/:id", element: <MentorCard />, id: 12 },
     { link: "/oneMentor/:id", element: <MentorCard />, id: 12 },
   ];
   return (
